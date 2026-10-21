@@ -186,7 +186,7 @@ uv run pytest tests/integration
 ### Roadmap e Status de Implementação
 - [ ] **Fase 1: Ingestão Estruturada e Vetorização** [Em Andamento]
   - [x] Estruturação do repositório e variáveis de ambiente
-  - [ ] Parser de AST para Markdown e chunker hierárquico
+  - [x] Parser de AST para Markdown e chunker hierárquico
   - [ ] Integração do gerador denso via FastEmbed e ONNX
   - [ ] Orquestração de coleções no Qdrant via gRPC
 - [ ] **Fase 2: Recuperação Híbrida e Reranking com Cross-Encoder** [A preencher]
