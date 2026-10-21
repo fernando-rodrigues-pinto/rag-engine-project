@@ -1,0 +1,43 @@
+# 1. Ambientes Virtuais e Resolução de Dependências
+.venv/
+env/
+venv/
+ENV/
+
+# 2. Bytecode Python e Caches de Compilação
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 3. Ferramentas de Tipagem, Linting e Testes
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 4. Dados Sensíveis, Credenciais e Variáveis de Ambiente
+.env
+.env.*
+!.env.example
+
+# 5. Modelos de Machine Learning e Runtimes Locais (FastEmbed / HuggingFace / ONNX)
+models/
+.cache/
+fastembed_cache/
+
+# 6. Banco Vetorial Local e Volumes Persistentes (Qdrant)
+qdrant_storage/
+qdrant_data/
+docker/data/
+
+# 7. Dados Brutos Grandes (Datasets / PDFs de Ingestão)
+data/raw/*
+!data/raw/.gitkeep
+
+# 8. Metadados de Sistema Operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
