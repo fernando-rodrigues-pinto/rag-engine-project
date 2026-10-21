@@ -2,6 +2,9 @@
 name = "hybrid-rag-engine"
 version = "0.1.0"
 requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.10",
+]
 
 [dependency-groups]
 dev = [
@@ -29,3 +32,4 @@ warn_redundant_casts = true
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 asyncio_mode = "auto"
+pythonpath = ["."]
